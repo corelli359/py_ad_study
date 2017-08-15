@@ -58,3 +58,4 @@ class BingoCage:
 if __name__ == '__main__':
     bg = BingoCage(range(5))
     print(callable(bg))
+    print('hello')
