@@ -24,7 +24,8 @@ SECRET_KEY = 'f6(oon%i0-)c!148f35^1oke093z+si+23+o!)9+bkqm@&@(dh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.205.41:8000']
+# ALLOWED_HOSTS = ['192.168.205.41', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -42,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -114,3 +115,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_FINDERS = (
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder"
+)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "common_static"),
+    # '/path/to/others/static/',  # 用不到的时候可以不写这一行
+)
+STATIC_ROOT = os.path.join(BASE_DIR, 'collect static')

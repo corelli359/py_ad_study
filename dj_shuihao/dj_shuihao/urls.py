@@ -19,6 +19,7 @@ from my_app import views
 
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
-    url(r'^search', views.index),
+    # url(r'^search', views.index),
     url(r'^$', views.home),
+    url(r'^search_page', views.post_func)
 ]
