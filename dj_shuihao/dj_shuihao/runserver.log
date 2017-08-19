@@ -1,0 +1,146 @@
+[18/Aug/2017 02:50:00] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 03:30:45] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 03:30:45] "GET /static/js/min.js HTTP/1.1" 200 148591
+Not Found: /favicon.ico
+[18/Aug/2017 03:30:46] "GET /favicon.ico HTTP/1.1" 404 2078
+[18/Aug/2017 05:29:46] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 05:29:46] "GET /static/js/min.js HTTP/1.1" 304 0
+Internal Server Error: /search_page
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 45, in run
+    href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/root/anaconda3/lib/python3.6/socket.py", line 743, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 345, in _make_request
+    self._validate_conn(conn)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 844, in _validate_conn
+    conn.connect()
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+requests.packages.urllib3.exceptions.NewConnectionError: <requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fd5b976d780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 438, in send
+    timeout=timeout
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+requests.packages.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /search?key=sssssssss&checkFrom=searchBox (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fd5b976d780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PY_WORK_SPACE/dj_shuihao/my_app/views.py", line 25, in post_func
+    shuihao = tyc.run()
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 58, in run
+    return self.run(count)
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 58, in run
+    return self.run(count)
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 58, in run
+    return self.run(count)
+  [Previous line repeated 4 more times]
+  File "/root/PY_WORK_SPACE/dj_shuihao/tyc/tianyancha.py", line 39, in run
+    response = session.get(target_url, headers=headers, timeout=(15, 15))
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 531, in get
+    return self.request('GET', url, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 518, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 639, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 502, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.tianyancha.com', port=443): Max retries exceeded with url: /search?key=sssssssss&checkFrom=searchBox (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fd5b976d780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[18/Aug/2017 05:29:59] "POST /search_page HTTP/1.1" 500 20776
+[18/Aug/2017 05:30:00] "POST /search_page HTTP/1.1" 200 97
+[18/Aug/2017 15:12:28] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 15:12:29] "GET /static/js/min.js HTTP/1.1" 200 148591
+Not Found: /favicon.ico
+[18/Aug/2017 15:12:29] "GET /favicon.ico HTTP/1.1" 404 2078
+[18/Aug/2017 15:12:44] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 15:12:45] "GET /static/js/min.js HTTP/1.1" 200 148591
+[18/Aug/2017 15:37:04] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 15:37:04] "GET /static/js/min.js HTTP/1.1" 200 148591
+Not Found: /favicon.ico
+[18/Aug/2017 15:37:04] "GET /favicon.ico HTTP/1.1" 404 2078
+[18/Aug/2017 15:37:35] "POST /search_page HTTP/1.1" 200 67
+[18/Aug/2017 15:37:53] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 15:38:02] "GET / HTTP/1.1" 200 2629
+[18/Aug/2017 15:38:02] "GET /static/js/min.js HTTP/1.1" 200 148591
+[19/Aug/2017 06:15:08] "GET / HTTP/1.1" 200 2629
+[19/Aug/2017 06:15:08] "GET /static/js/min.js HTTP/1.1" 200 148591

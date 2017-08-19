@@ -1,0 +1,746 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 16 23:39:47 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+invalid socket name
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Aug 16 23:40:37 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+invalid socket name
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:00:17 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :9000 fd 3
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 6
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fa6cd006a00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named 'dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+failed to open python file django_test/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14830)
+spawned uWSGI worker 1 (pid: 14831, cores: 2)
+spawned uWSGI worker 2 (pid: 14832, cores: 2)
+spawned uWSGI worker 3 (pid: 14833, cores: 2)
+spawned uWSGI worker 4 (pid: 14834, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 18 ***
+spawned uWSGI http 1 (pid: 14835)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/1] 127.0.0.1 () {36 vars in 625 bytes} [Thu Aug 17 00:00:43 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/2] 127.0.0.1 () {36 vars in 604 bytes} [Thu Aug 17 00:00:43 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/3] 127.0.0.1 () {36 vars in 625 bytes} [Thu Aug 17 00:01:11 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/4] 127.0.0.1 () {36 vars in 604 bytes} [Thu Aug 17 00:01:11 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:02:37 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/5] 127.0.0.1 () {36 vars in 625 bytes} [Thu Aug 17 00:03:11 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/6] 127.0.0.1 () {36 vars in 604 bytes} [Thu Aug 17 00:03:11 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/7] 127.0.0.1 () {38 vars in 887 bytes} [Thu Aug 17 00:03:20 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/8] 127.0.0.1 () {38 vars in 866 bytes} [Thu Aug 17 00:03:20 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+--- no python application found, check your startup logs for errors ---
+[pid: 14834|app: -1|req: -1/9] 127.0.0.1 () {36 vars in 624 bytes} [Thu Aug 17 00:03:31 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/10] 127.0.0.1 () {36 vars in 603 bytes} [Thu Aug 17 00:03:31 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/11] 127.0.0.1 () {40 vars in 703 bytes} [Thu Aug 17 00:09:05 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/12] 127.0.0.1 () {40 vars in 682 bytes} [Thu Aug 17 00:09:06 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/13] 127.0.0.1 () {42 vars in 734 bytes} [Thu Aug 17 00:10:46 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/14] 127.0.0.1 () {40 vars in 682 bytes} [Thu Aug 17 00:10:46 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:15:01 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:9000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/15] 127.0.0.1 () {40 vars in 703 bytes} [Thu Aug 17 00:15:23 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14834|app: -1|req: -1/16] 127.0.0.1 () {40 vars in 682 bytes} [Thu Aug 17 00:15:23 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/17] 127.0.0.1 () {40 vars in 687 bytes} [Thu Aug 17 00:15:29 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/18] 127.0.0.1 () {40 vars in 695 bytes} [Thu Aug 17 00:15:36 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:25:20 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/19] 127.0.0.1 () {40 vars in 703 bytes} [Thu Aug 17 00:25:36 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/20] 127.0.0.1 () {40 vars in 703 bytes} [Thu Aug 17 00:25:36 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/21] 127.0.0.1 () {40 vars in 682 bytes} [Thu Aug 17 00:25:36 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/22] 127.0.0.1 () {40 vars in 687 bytes} [Thu Aug 17 00:26:38 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/23] 127.0.0.1 () {40 vars in 695 bytes} [Thu Aug 17 00:26:45 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:28:31 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+writing pidfile to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/24] 127.0.0.1 () {40 vars in 695 bytes} [Thu Aug 17 00:28:37 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/25] 127.0.0.1 () {40 vars in 703 bytes} [Thu Aug 17 00:28:41 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 14832|app: -1|req: -1/26] 127.0.0.1 () {40 vars in 682 bytes} [Thu Aug 17 00:28:41 2017] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:42:05 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8001).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:44:07 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:51840 (port auto-assigned) fd 3
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fadfe02b600
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named 'dj_shuihao'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15192, cores: 2)
+spawned uWSGI worker 2 (pid: 15193, cores: 2)
+spawned uWSGI worker 3 (pid: 15194, cores: 2)
+spawned uWSGI worker 4 (pid: 15195, cores: 2)
+spawned uWSGI http 1 (pid: 15196)
+--- no python application found, check your startup logs for errors ---
+[pid: 15193|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 656 bytes} [Thu Aug 17 00:44:13 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:44:38 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:44:39 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 15195|app: -1|req: -1/2] 127.0.0.1 () {38 vars in 655 bytes} [Thu Aug 17 00:44:43 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15193|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 655 bytes} [Thu Aug 17 00:44:45 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:46:34 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 15193|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 656 bytes} [Thu Aug 17 00:46:39 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 15195|app: -1|req: -1/5] 127.0.0.1 () {38 vars in 656 bytes} [Thu Aug 17 00:46:59 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+gateway "uWSGI http 1" has been buried (pid: 14835)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 6 mapped to socket 0 (127.0.0.1:8001)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:03 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:9090).
+bind(): Address already in use [core/socket.c line 769]
+gateway "uWSGI http 1" has been buried (pid: 15196)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:51840)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:17 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52851 (port auto-assigned) fd 4
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fd839801000
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15235, cores: 2)
+spawned uWSGI worker 2 (pid: 15236, cores: 2)
+spawned uWSGI worker 3 (pid: 15237, cores: 2)
+spawned uWSGI worker 4 (pid: 15238, cores: 2)
+spawned uWSGI http 1 (pid: 15239)
+gateway "uWSGI http 1" has been buried (pid: 15239)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 4 mapped to socket 0 (127.0.0.1:52851)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:31 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52896 (port auto-assigned) fd 3
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ffea1802c00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15242, cores: 2)
+spawned uWSGI worker 2 (pid: 15243, cores: 2)
+spawned uWSGI worker 3 (pid: 15244, cores: 2)
+spawned uWSGI worker 4 (pid: 15245, cores: 2)
+spawned uWSGI http 1 (pid: 15246)
+gateway "uWSGI http 1" has been buried (pid: 15246)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:52896)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:49 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52957 (port auto-assigned) fd 4
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fa42e802c00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15247, cores: 2)
+spawned uWSGI worker 2 (pid: 15248, cores: 2)
+spawned uWSGI worker 3 (pid: 15249, cores: 2)
+spawned uWSGI worker 4 (pid: 15250, cores: 2)
+spawned uWSGI http 1 (pid: 15251)
+gateway "uWSGI http 1" has been buried (pid: 15251)
+...brutally killing workers...
+worker 4 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 4 mapped to socket 0 (127.0.0.1:52957)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:50 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52962 (port auto-assigned) fd 3
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fce51818a00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15252, cores: 2)
+spawned uWSGI worker 2 (pid: 15253, cores: 2)
+spawned uWSGI worker 3 (pid: 15254, cores: 2)
+spawned uWSGI worker 4 (pid: 15255, cores: 2)
+spawned uWSGI http 1 (pid: 15256)
+gateway "uWSGI http 1" has been buried (pid: 15256)
+...brutally killing workers...
+worker 4 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:52962)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:51 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52963 (port auto-assigned) fd 4
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fbca980a200
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15257, cores: 2)
+spawned uWSGI worker 2 (pid: 15258, cores: 2)
+spawned uWSGI worker 3 (pid: 15259, cores: 2)
+spawned uWSGI worker 4 (pid: 15260, cores: 2)
+spawned uWSGI http 1 (pid: 15261)
+gateway "uWSGI http 1" has been buried (pid: 15261)
+...brutally killing workers...
+worker 4 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 4 mapped to socket 0 (127.0.0.1:52963)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:52 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52968 (port auto-assigned) fd 3
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fe346000000
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15262, cores: 2)
+spawned uWSGI worker 2 (pid: 15263, cores: 2)
+spawned uWSGI worker 3 (pid: 15264, cores: 2)
+spawned uWSGI worker 4 (pid: 15265, cores: 2)
+spawned uWSGI http 1 (pid: 15266)
+gateway "uWSGI http 1" has been buried (pid: 15266)
+...brutally killing workers...
+worker 4 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 0 seconds
+worker 1 buried after 0 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:52968)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:53 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52973 (port auto-assigned) fd 4
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7f85ee018a00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15267, cores: 2)
+spawned uWSGI worker 2 (pid: 15268, cores: 2)
+spawned uWSGI worker 3 (pid: 15269, cores: 2)
+spawned uWSGI worker 4 (pid: 15270, cores: 2)
+spawned uWSGI http 1 (pid: 15271)
+gateway "uWSGI http 1" has been buried (pid: 15271)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 4 mapped to socket 0 (127.0.0.1:52973)
+running /anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from dj_uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Aug 17 00:48:54 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42) on 16 August 2017 13:49:06
+os: Darwin-16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao
+detected binary path: /anaconda/bin/uwsgi
+chdir() to /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:9090 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:52978 (port auto-assigned) fd 3
+Python version: 3.6.0 |Anaconda custom (x86_64)| (default, Dec 23 2016, 13:19:00)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ff5d1818a00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named '/Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 15191)
+spawned uWSGI worker 1 (pid: 15272, cores: 2)
+spawned uWSGI worker 2 (pid: 15273, cores: 2)
+spawned uWSGI worker 3 (pid: 15274, cores: 2)
+spawned uWSGI worker 4 (pid: 15275, cores: 2)
+spawned uWSGI http 1 (pid: 15276)
+--- no python application found, check your startup logs for errors ---
+[pid: 15274|app: -1|req: -1/1] 127.0.0.1 () {36 vars in 625 bytes} [Thu Aug 17 00:51:19 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+Thu Aug 17 00:53:02 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Aug 17 00:53:02 2017 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!

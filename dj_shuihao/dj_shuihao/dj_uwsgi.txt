@@ -1,0 +1,19 @@
+[uwsgi]
+# /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/script
+http = 127.0.0.1:8090
+#socket = 127.0.0.1:8001
+chdir = /Users/chinadaas/Desktop/dj_shuihao
+chmod-socket = 664
+#socket = /Users/chinadaas/Desktop/dj_shuihao/dj_shuihao.sock
+threads = 2
+#wsgi-file = /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi.py
+;stats = 127.0.0.1:9191
+;uid=root
+;gid=root
+module = dj_shuihao.wsgi:application
+;module = /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao/wsgi.py
+master = true
+processes = 4
+vacuum = true
+;pidfile = /Users/chinadaas/Desktop/Python_Work_Space/GITHUP_SPACE/py_ad_study/py_ad_study/dj_shuihao/dj_shuihao.pid
+#daemonize = uwsgi.log
