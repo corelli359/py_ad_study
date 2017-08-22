@@ -3,6 +3,7 @@ from requests import Session
 from lxml import etree
 import re
 from tyc.headers import headers, detail_headers
+from urllib.parse import quote
 
 
 def get_cookies(cook):
@@ -32,7 +33,8 @@ class TianYanCha(object):
         session = Session()
 
         # name = '广东美信科技股份有限公司'
-        name = self.name
+        name = quote(self.name)
+        pattern = '(<a href="https://www.tianyancha.com/company(.+?)")[\s\S]+?(%s{1})' % self.name
         url = 'https://www.tianyancha.com/search?key={}&checkFrom=searchBox'
         target_url = url.format(name)
         cookies = {}
@@ -42,13 +44,18 @@ class TianYanCha(object):
         content = response.content.decode('utf-8')
         source = etree.HTML(content)
         try:
-            href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+            href_list = re.findall(pattern, content)
+            if len(href_list) == 0:
+                return None
+            # href = source.xpath('//div[@class="row pb10"]/div/a/@href')[0]
+            href = re.findall('href="(.*?)"', str(href_list[0]))[0]
             print(href)
             detail_url = href
             detail_response = session.get(detail_url, headers=detail_headers, cookies=cookies, timeout=(15, 15))
             detail_content = detail_response.content.decode('utf-8')
             if '纳税人识别号' in detail_content:
-                nashui = re.findall('<div class="c8">纳税人识别号：\n +<span>(.+?)</span>', detail_content)[0]
+                nashui = re.findall('纳税人识别号[\s\S]+?<span>(.+?)</span>', detail_content)[0]
+                # nashui = re.findall('<div class="c8">纳税人识别号：\n +<span>(.+?)</span>', detail_content)
             else:
                 nashui = None
         except:
